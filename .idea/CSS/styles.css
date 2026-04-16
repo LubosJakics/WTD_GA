@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fdf5e6; /*Kremove pozadie */
+    color: #333;
+    font-family: Calibri, sans-serif;
+}
+
+header {
+    padding: 1rem;
+    background-color: rosybrown;
+    color: saddlebrown;
+    text-align: center;
+}
+
+nav {
+    background-color: #a67b5b; /* Kávová hnedá */;
+    color: bisque;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0.5rem;
+    flex-wrap: wrap;
+}
+
+nav a {
+       color: white;
+       text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f5e6d3; /* Mierne tmavsia kremova */
+    padding: 40px;
+    border: 1px solid #dcc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+}
