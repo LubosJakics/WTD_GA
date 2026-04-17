@@ -14,7 +14,7 @@ header {
 }
 
 nav {
-    background-color: #a67b5b; /* kavova hneda */;
+    background-color: #a67b5b; /* Kávová hnedá */;
     color: bisque;
     display: flex;
     justify-content: center;
@@ -30,10 +30,7 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
-.container {
-    display: grid;
-    grid-template: 4fr 1fr;
-    gap: 1rem;
+.home_page {
     max-width: 900px;
     margin: 0 auto;
     background-color: #f5e6d3; /* Mierne tmavsia kremova */
@@ -41,8 +38,19 @@ nav a:hover {
     border: 1px solid #dcc;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    margin-top: 40px;
 
+}
+.menu_page {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 1rem;
+    padding: 1rem;
+
+}
+.menu_page_main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
 }
 h2{
     text-align: center;
