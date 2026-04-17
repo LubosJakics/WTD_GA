@@ -40,18 +40,25 @@ nav a:hover {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 
 }
-.menu_page {
-    display: grid;
-    grid-template-columns: 4fr 1fr;
-    gap: 1rem;
-    padding: 1rem;
 
-}
 .menu_page_main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
 }
+.menu_page_article{
+    padding: 1rem;
+    border-radius: 1rem;
+
+}
+.menu_page_article p {
+    text-align: center;
+    font-family: Calibri, sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+
+}
+
 h2{
     text-align: center;
 }
