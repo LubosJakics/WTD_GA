@@ -3,7 +3,7 @@ body {
     padding: 0;
     background-color: #fdf5e6; /*Kremove pozadie */
     color: #333;
-    font-family: Calibri, sans-serif;
+    font-family: Calibri;
 }
 
 header {
@@ -75,6 +75,10 @@ footer {
 .image-wrapper {
     text-align: center;
     margin-bottom: 20px; /* medzera pod obrazkom */
+    display: flex;
+    flex-direction: column; /* obrazky pod seba */
+    align-items: center;
+    gap: 15px;
 }
 
 /* dlasie nastavenia */
