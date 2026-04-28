@@ -40,7 +40,6 @@ nav a:hover {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     text-align: center;
     font-weight: bold;
-
 }
 
 .menu_page_main {
@@ -71,7 +70,6 @@ footer {
     color: #777;
 }
 
-/* vycentrovanie obrazka */
 .image-wrapper {
     text-align: center;
     margin-bottom: 20px; /* medzera pod obrazkom */
@@ -86,4 +84,84 @@ footer {
     max-width: 100%;    /* aby nepretekal cez malu obrazovku */
     height: auto;       /* zachova pomer stran */
     border-radius: 8px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#formular {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    background-color: #fdfaf7;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+
+#formular h2 {
+    text-align: center;
+    color: #5d4037;
+    margin-bottom: 20px;
+}
+
+#formular label {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #5d4037;
+    display: block;
+}
+
+/* text.polia */
+#formular input[type="text"],
+#formular input[type="email"],
+#formular input[type="tel"] {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #d7ccc8;
+    border-radius: 25px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.switch-container, .inline-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 0 5px;
+}
+
+.inline-group {
+    justify-content: flex-start; /
+    gap: 10px;
+}
+
+button {
+    margin-top: 25px;
+    padding: 15px;
+    background-color: #8d6e63;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #5d4037;
+}
+
+.chyba {
+    color: #d32f2f;
+    font-size: 0.85em;
+    margin-top: 4px;
+    min-height: 1em;
 }

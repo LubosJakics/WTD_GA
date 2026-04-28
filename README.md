@@ -6,6 +6,7 @@
 ## Pre-requisities
   * Web browser: MS Edge, Google Chrome, Firefox, Safari...etc in latest version 
   * Editor: WebStorm or VS Code
+  * Vanilla JS FSLightBox for picture gallery
 
 ## Installation
   * 1, download this repository as zip or make a clone
